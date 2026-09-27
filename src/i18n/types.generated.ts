@@ -5,8 +5,8 @@
  * 직접 수정하지 마세요.
  *
  * 생성 명령: pnpm run generate:i18n-types
- * 생성 시간: 2026-09-09T12:20:43.282Z
- * 총 키 개수: 1962
+ * 생성 시간: 2026-09-27T18:44:32.481Z
+ * 총 키 개수: 1976
  * Namespace 수: 11
  */
 
@@ -443,7 +443,7 @@ export type AnalyticsKeys =
   | 'analytics.weeklyActivity';
 
 /**
- * session namespace의 번역 키 (259개)
+ * session namespace의 번역 키 (263개)
  * 파일: locales/{lang}/session.json
  */
 export type SessionKeys =
@@ -565,6 +565,7 @@ export type SessionKeys =
   | 'session.deleteSession'
   | 'session.deleteSuccess'
   | 'session.deleteTitle'
+  | 'session.editCustomArguments'
   | 'session.export.button'
   | 'session.export.error'
   | 'session.export.exporting'
@@ -688,6 +689,8 @@ export type SessionKeys =
   | 'session.selection.partialNotice'
   | 'session.selection.resume'
   | 'session.selection.resumeConfirmButton'
+  | 'session.selection.resumeDangerousTitle'
+  | 'session.selection.resumeDangerousWarning'
   | 'session.selection.resumeDescription'
   | 'session.selection.resumeError'
   | 'session.selection.resumeMore'
@@ -702,13 +705,14 @@ export type SessionKeys =
   | 'session.summaryNotFound'
   | 'session.syncError'
   | 'session.title'
+  | 'session.withCustomArguments'
   | 'sessionPicker.cancelled'
   | 'sessionPicker.empty'
   | 'sessionPicker.subtitle'
   | 'sessionPicker.title';
 
 /**
- * settings namespace의 번역 키 (537개)
+ * settings namespace의 번역 키 (547개)
  * 파일: locales/{lang}/settings.json
  */
 export type SettingsKeys =
@@ -747,6 +751,16 @@ export type SettingsKeys =
   | 'settings.customDirectories.pathPlaceholder'
   | 'settings.customDirectories.remove'
   | 'settings.customDirectories.removeConfirm'
+  | 'settings.sessionResume.description'
+  | 'settings.sessionResume.errorInvalid'
+  | 'settings.sessionResume.livePreview'
+  | 'settings.sessionResume.noProviders'
+  | 'settings.sessionResume.placeholder'
+  | 'settings.sessionResume.resetSuccess'
+  | 'settings.sessionResume.saveFailed'
+  | 'settings.sessionResume.saved'
+  | 'settings.sessionResume.title'
+  | 'settings.sessionResume.warningDangerous'
   | 'settings.wsl.defaultBadge'
   | 'settings.wsl.description'
   | 'settings.wsl.detectError'
@@ -3121,6 +3135,7 @@ export type TranslationKey =
   | 'session.deleteSession'
   | 'session.deleteSuccess'
   | 'session.deleteTitle'
+  | 'session.editCustomArguments'
   | 'session.export.button'
   | 'session.export.error'
   | 'session.export.exporting'
@@ -3244,6 +3259,8 @@ export type TranslationKey =
   | 'session.selection.partialNotice'
   | 'session.selection.resume'
   | 'session.selection.resumeConfirmButton'
+  | 'session.selection.resumeDangerousTitle'
+  | 'session.selection.resumeDangerousWarning'
   | 'session.selection.resumeDescription'
   | 'session.selection.resumeError'
   | 'session.selection.resumeMore'
@@ -3258,6 +3275,7 @@ export type TranslationKey =
   | 'session.summaryNotFound'
   | 'session.syncError'
   | 'session.title'
+  | 'session.withCustomArguments'
   | 'sessionPicker.cancelled'
   | 'sessionPicker.empty'
   | 'sessionPicker.subtitle'
@@ -3279,6 +3297,16 @@ export type TranslationKey =
   | 'settings.customDirectories.pathPlaceholder'
   | 'settings.customDirectories.remove'
   | 'settings.customDirectories.removeConfirm'
+  | 'settings.sessionResume.description'
+  | 'settings.sessionResume.errorInvalid'
+  | 'settings.sessionResume.livePreview'
+  | 'settings.sessionResume.noProviders'
+  | 'settings.sessionResume.placeholder'
+  | 'settings.sessionResume.resetSuccess'
+  | 'settings.sessionResume.saveFailed'
+  | 'settings.sessionResume.saved'
+  | 'settings.sessionResume.title'
+  | 'settings.sessionResume.warningDangerous'
   | 'settings.wsl.defaultBadge'
   | 'settings.wsl.description'
   | 'settings.wsl.detectError'
