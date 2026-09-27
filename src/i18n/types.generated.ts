@@ -5,8 +5,8 @@
  * 직접 수정하지 마세요.
  *
  * 생성 명령: pnpm run generate:i18n-types
- * 생성 시간: 2026-09-27T18:44:32.481Z
- * 총 키 개수: 1976
+ * 생성 시간: 2026-09-27T19:01:42.731Z
+ * 총 키 개수: 1980
  * Namespace 수: 11
  */
 
@@ -712,7 +712,7 @@ export type SessionKeys =
   | 'sessionPicker.title';
 
 /**
- * settings namespace의 번역 키 (547개)
+ * settings namespace의 번역 키 (551개)
  * 파일: locales/{lang}/settings.json
  */
 export type SettingsKeys =
@@ -753,6 +753,10 @@ export type SettingsKeys =
   | 'settings.customDirectories.removeConfirm'
   | 'settings.sessionResume.description'
   | 'settings.sessionResume.errorInvalid'
+  | 'settings.sessionResume.errorInvalidCharacters'
+  | 'settings.sessionResume.errorMaxTokens'
+  | 'settings.sessionResume.errorMetacharacters'
+  | 'settings.sessionResume.errorTokenTooLong'
   | 'settings.sessionResume.livePreview'
   | 'settings.sessionResume.noProviders'
   | 'settings.sessionResume.placeholder'
@@ -3299,6 +3303,10 @@ export type TranslationKey =
   | 'settings.customDirectories.removeConfirm'
   | 'settings.sessionResume.description'
   | 'settings.sessionResume.errorInvalid'
+  | 'settings.sessionResume.errorInvalidCharacters'
+  | 'settings.sessionResume.errorMaxTokens'
+  | 'settings.sessionResume.errorMetacharacters'
+  | 'settings.sessionResume.errorTokenTooLong'
   | 'settings.sessionResume.livePreview'
   | 'settings.sessionResume.noProviders'
   | 'settings.sessionResume.placeholder'
